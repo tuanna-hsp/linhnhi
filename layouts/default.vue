@@ -75,7 +75,8 @@ export default {
 
   &--mobile {
     padding: 58px 0 0 0;
-    min-height: calc(100vh - 224px);
+    min-height: calc(100vh - 290px);
+    height: 100%;
     margin-bottom: 32px;
   }
 }

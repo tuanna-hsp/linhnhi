@@ -1,5 +1,5 @@
 <template>
-  <div v-if="$vuetify.breakpoint?.mobile" class="w-headline-mobile">
+  <div v-if="$vuetify.display.mobile" class="w-headline-mobile">
     <div class="w-headline-mobile__name-wrapper">
       <span class="w-headline-mobile__name">TRUNG</span>
       <v-img width="40px" src="/images/flower.png" />

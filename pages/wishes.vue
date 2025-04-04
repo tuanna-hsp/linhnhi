@@ -26,9 +26,9 @@
     <v-dialog v-model="sendConfirmation" persistent max-width="290">
       <v-card>
         <v-card-title>Xác Nhận</v-card-title>
-        <v-card-text>Gửi lời chúc cho Tuấn & Quyên?</v-card-text>
+        <v-card-text>Gửi lời chúc cho Trung & Nhi?</v-card-text>
         <v-card-actions>
-          <v-btn text @click="sendConfirmation = false"> Sửa thêm chút </v-btn>
+          <v-btn text @click="sendConfirmation = false"> Sửa lại </v-btn>
           <v-spacer></v-spacer>
           <v-btn text @click="send"> Gửi luôn </v-btn>
         </v-card-actions>
