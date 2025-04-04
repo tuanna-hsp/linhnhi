@@ -1,22 +1,28 @@
 <template>
   <v-app class="w-layout">
-    <div
-      class="w-content"
-      :class="{ 'w-content--mobile': $vuetify.display.mobile }"
-    >
-      <template v-if="!$vuetify.display.mobile">
-        <v-img width="300" class="w-bg__left" src="/images/flower2-up.png" />
-        <v-img width="300" class="w-bg__right" src="/images/flower2-down.png" />
-      </template>
+    <client-only>
+      <div
+        class="w-content"
+        :class="{ 'w-content--mobile': $vuetify.display.mobile }"
+      >
+        <template v-if="!$vuetify.display.mobile">
+          <v-img width="300" class="w-bg__left" src="/images/flower2-up.png" />
+          <v-img
+            width="300"
+            class="w-bg__right"
+            src="/images/flower2-down.png"
+          />
+        </template>
 
-      <headline />
-      <main-menu />
-      <nuxt-page
-        class="w-page"
-        :class="{ 'w-page--mobile': $vuetify.display.mobile }"
-      />
-      <mobile-footer v-if="$vuetify.display.mobile" />
-    </div>
+        <headline />
+        <main-menu />
+        <nuxt-page
+          class="w-page"
+          :class="{ 'w-page--mobile': $vuetify.display.mobile }"
+        />
+        <mobile-footer v-if="$vuetify.display.mobile" />
+      </div>
+    </client-only>
   </v-app>
 </template>
 
