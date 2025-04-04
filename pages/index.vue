@@ -33,7 +33,7 @@ export default {
           dad: "Ông: Nguyễn Chí Sỹ",
           mom: "Bà: Nguyễn Thị Hoài Nam",
           main: "Nguyễn Thị Linh Nhi (trưởng nữ)",
-          time: "11:00 Chủ Nhật, Ngày 04/06/2025",
+          time: "11:00 Chủ Nhật, Ngày 06/04/2025",
           lunarTime: "(tức ngày 09 - 03 năm Ất Tỵ)",
           address:
             "Nhà Văn Hóa Xóm 6 Thôn Pháp Kệ, Xã Quảng Phương, Huyện Quảng Trạch, Tỉnh Quảng Bình",
@@ -46,7 +46,7 @@ export default {
           time: "11:00 Thứ Năm, Ngày 17 Tháng 04 Năm 2025",
           lunarTime: "(tức ngày 20 - 03 năm Ất Tỵ)",
           address:
-            "Nhà Văn Hóa Thôn Pháp Kệ, Xã Quảng Phương, Huyện Quảng Trạch, Tỉnh Quảng Bình",
+            "Nhà Hàng Bảy Thiết Xóm 3, Thôn Vĩnh Phú, Xã Quảng Hòa, Thị Xã Ba Đồn, Tỉnh Quảng Bình",
         },
       ],
     };
