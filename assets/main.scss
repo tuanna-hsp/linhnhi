@@ -45,11 +45,11 @@
 @font-face {
   font-family: "VanChuong";
   src: local("VanChuong"),
-   url(~assets/fonts/VanChuong.ttf) format("truetype");
+   url(/fonts/VanChuong.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "FilmotypeHoney";
   src: local("FilmotypeHoney"),
-   url(~assets/fonts/FilmotypeHoney.otf) format("opentype");
+   url(/fonts/FilmotypeHoney.otf) format("opentype");
 }
