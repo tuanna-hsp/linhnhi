@@ -8,11 +8,11 @@
   </div>
   <div v-else class="w-headline">
     <div class="w-headline__name-wrapper">
-      <span class="w-headline__name">NAM TRUNG</span>
+      <span class="w-headline__name">N. TRUNG</span>
       <v-img width="100px" src="/images/flower.png" />
       <span class="w-headline__name">LINH NHI</span>
     </div>
-    <p class="w-headline__date"><i>Nhà trai 24.12.22 - Nhà gái 17.12.22</i></p>
+    <p class="w-headline__date"><i>Nhà trai 17.04.25 - Nhà gái 06.04.25</i></p>
   </div>
 </template>
 

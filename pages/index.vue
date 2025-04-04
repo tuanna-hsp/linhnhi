@@ -27,15 +27,19 @@ export default {
       sides: [
         {
           name: "NHÀ NỮ",
-          time: "17:30 Thứ Bảy, Ngày 17 Tháng 12 Năm 2022",
-          lunarTime: "(nhằm ngày 24 - 11 năm Nhâm Dần)",
+          dad: "Nguyễn Chí Sỹ",
+          mon: "Nguyễn Thị Hoài Nam",
+          time: "11:00 Chủ Nhật, Ngày 04/06/2025",
+          lunarTime: "(tức ngày 09 - 03 năm Ất Tỵ)",
           address:
             "Khách Sạn Sammy, Số 01 Lê Hồng Phong, Phường 4 Tp.Đà Lạt, Tỉnh Lâm Đồng",
         },
         {
           name: "NHÀ NAM",
+          dad: "Nguyễn Chí Sỹ",
+          mon: "Nguyễn Thị Hoài Nam",
           time: "11:00 Thứ Bảy, Ngày 24 Tháng 12 Năm 2022",
-          lunarTime: "(nhằm ngày 2 - 12 năm Nhâm Dần)",
+          lunarTime: "(tức ngày 20 - 03 năm Ất Tỵ)",
           address:
             "Nhà Văn Hóa Thôn Pháp Kệ, Xã Quảng Phương, Huyện Quảng Trạch, Tỉnh Quảng Bình",
         },
